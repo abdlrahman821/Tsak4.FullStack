@@ -1,92 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSolutions - Professional Web Services</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechStore - Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1>TechSolutions</h1>
-            </div>
-            <nav class="navigation">
-                <ul>
-                    <li><a href="index.html" class="nav-active">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h2>Professional Web Development Solutions</h2>
-            <p>We create responsive, modern websites that help your business grow</p>
-            <a href="contact.html" class="btn">Get Started</a>
-        </div>
-    </section>
+<nav>
+    <div class="logo">TechStore</div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
 
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <div class="feature">
-                <div class="feature-icon">🚀</div>
-                <h3>Fast Development</h3>
-                <p>We deliver projects on time without compromising quality</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">💡</div>
-                <h3>Innovative Solutions</h3>
-                <p>Creative approaches to solve your business challenges</p>
-            </div>
-            <div class="feature">
-                <div class="feature-icon">🔒</div>
-                <h3>Secure & Reliable</h3>
-                <p>Your data and applications are protected with best practices</p>
-            </div>
-        </div>
-    </section>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Welcome to TechStore</h1>
+        <p>Top Computer Accessories at Best Prices</p>
+    </div>
+</section>
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">What Our Clients Say</h2>
-            <div class="testimonial">
-                <p>"TechSolutions transformed our online presence. Their team was professional and delivered beyond our expectations."</p>
-                <div class="client">
-                    <h4>Sarah Johnson</h4>
-                    <p>CEO, BrightStar Inc.</p>
-                </div>
-            </div>
-            <div class="testimonial">
-                <p>"The website they created for us has significantly increased our conversion rates and customer engagement."</p>
-                <div class="client">
-                    <h4>Michael Chen</h4>
-                    <p>Marketing Director, Nexus Products</p>
-                </div>
-            </div>
+<section class="featured">
+    <h2>Featured Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Mechanical Keyboard">
+            <h3>Mechanical Keyboard</h3>
+            <p>$89.99</p>
         </div>
-    </section>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gaming Mouse">
+            <h3>Gaming Mouse</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Laptop Stand">
+            <h3>Laptop Stand</h3>
+            <p>$29.99</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1558442074-3c19857bc1dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="HD Webcam">
+            <h3>HD Webcam</h3>
+            <p>$59.99</p>
+        </div>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2023 TechSolutions. All rights reserved.</p>
-            <div class="social-links">
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-                <a href="#">LinkedIn</a>
-            </div>
+<section class="categories">
+    <h2>Categories</h2>
+    <div class="categories-list">
+        <div class="category">Mice</div>
+        <div class="category">Keyboards</div>
+        <div class="category">Monitors</div>
+        <div class="category">Headsets</div>
+        <div class="category">Webcams</div>
+    </div>
+</section>
+
+<section class="best-sellers" style="flex-direction: column;">
+  <div>
+    <h2>Best Sellers</h2>
+  </div>
+    <div class="best-sellers">
+        <div class="best-item">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Wireless Headset">
+            <h3>Wireless Headset</h3>
+            <p>$79.99</p>
         </div>
-    </footer>
+        <div class="best-item">
+            <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="RGB Keyboard">
+            <h3>RGB Mechanical Keyboard</h3>
+            <p>$99.99</p>
+        </div>
+    </div>
+</section>
+
+<section class="special-offer">
+    <p>Special Offer: 20% Off All Gaming Accessories! Limited Time Only.</p>
+</section>
+
+<section class="why-choose-us">
+    <h2>Why Choose Us</h2>
+    <p>High-quality products, fast delivery, and 24/7 support for all your computer needs.</p>
+</section>
+
+<section class="testimonials" style="flex-direction: column;">
+  <div>
+    <h2>Customer Testimonials</h2>
+  </div>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Great products and amazing customer service! Highly recommend TechStore."</p>
+            <h4>- John D.</h4>
+        </div>
+        <div class="testimonial">
+            <p>"Fast delivery and quality accessories. My gaming setup has never been better."</p>
+            <h4>- Sarah K.</h4>
+        </div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 TechStore. All rights reserved.
+</footer>
+
 </body>
 </html>
